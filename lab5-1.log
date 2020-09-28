@@ -1,0 +1,28 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.09.27 21:03:43 =~=~=~=~=~=~=~=~=~=~=~=
+login as: pdong
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+pdong@146.245.252.28's password: 
+Last login: Sun Sep 27 20:53:35 2020 from cpe-104-162-73-94.nyc.res.rr.com
+]0;pdong@sol28:~[?1034h[pdong@sol28 ~]$ cd lab5
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ curl https://people.sc.fsu.edu/~jburkardt/data/csv/snakes_co unt_10.csv --output lab5_1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100    91  100    91    0     0     15      0  0:00:06  0:00:05  0:00:01    21
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ cat "lab5_1" | cut -d \, -f "2" > "snakes"
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ sort -n snakes
+ "Game Length"
+ 16
+ 23
+ 24
+ 28
+ 29
+ 29
+ 30
+ 31
+ 42
+ 117
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ exit
+logout

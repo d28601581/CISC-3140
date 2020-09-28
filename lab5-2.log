@@ -1,0 +1,30 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.09.27 21:08:21 =~=~=~=~=~=~=~=~=~=~=~=
+login as: pdong
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+pdong@146.245.252.28's password: 
+Last login: Sun Sep 27 21:03:54 2020 from cpe-104-162-73-94.nyc.res.rr.com
+]0;pdong@sol28:~[?1034h[pdong@sol28 ~]$ cd lab5
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ nano lab5_2
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1               File: lab5_2                                     [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[m#! /bin/bash [4dcurl https://people.sc.fsu.edu/~jburkardt/data/csv/snakes_co[5dunt_10.csv --output lab5_1[22d[K[5;27H[Z[Z	[4;62Hunt_10.csv --outpu$[5;1H[K[4;62Hunt_10.csv --output[4;61Hunt	10.csv 	-outp[Z[Z[Z[Z[Z[Z[Z[Z	[3;14H	! /bin	bash [4dcurl ht	ps://pe	ple.sc.	su.edu/	jburkar	t/data/	sv/snak	s_count	10.csv 	-outpu$output lab5_1[K[Z	lab5_1curl https://people.sc.fsu.edu/~jburkardt/data/csv/snakes_count_10.csv --output$[5;1H[A$output lab5_1[Kcurl https://people.sc.fsu.edu/~jburkardt/data/csv/snakes_count_10.csv --output$[5;1Hcat "lab5_1" | cut -d \, -f "2"	> "snakes"[6dsort -n	snakes[7d[22d(B[0;7mFile Name to Write: lab5_2                                                      [23;14H(B[m       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[22;27H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 5 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[7d[23d[J[24;80H[24;1H[?1049l[?1l>]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ chmod +x lab5_2.sh
+chmod: cannot access ‘lab5_2.sh’: No such file or directory
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ chmod +x lab5_2
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ ./lab5_2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100    91  100    91    0     0     15      0  0:00:06  0:00:05  0:00:01    21
+ "Game Length"
+ 16
+ 23
+ 24
+ 28
+ 29
+ 29
+ 30
+ 31
+ 42
+ 117
+]0;pdong@sol28:~/lab5[pdong@sol28 lab5]$ exit
+logout
