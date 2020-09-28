@@ -1,0 +1,5 @@
+#! /bin/bash 
+curl https://people.sc.fsu.edu/~jburkardt/data/csv/snakes_count_10.csv --output lab5_1
+cat "lab5_1" | cut -d \, -f "2" > "snakes"
+sort -n snakes
+
